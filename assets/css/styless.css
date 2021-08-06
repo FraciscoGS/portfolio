@@ -1,0 +1,241 @@
+/* stilos de la navegacion */
+nav li{
+    display: inline-block;
+    color: white;
+}
+.iconservice{
+        display: inline-block;
+        width: 4rem;
+        border: 2px solid #1A8DB4;
+        border-radius: 50%;
+        color: #1A8DB4;
+        font-size: 30px;
+        padding-top: 1rem;
+        margin-bottom: 1rem;
+}
+.box-experience{
+    border:solid 1px black;
+    width: 100%;
+    padding:1.5rem;
+    height: 100%;
+}
+.fonticon3rem{
+    font-size: 3rem;
+    border: solid 0.1rem white;
+    padding: 0.5rem;
+}
+.far{
+    color:#1A8DB4;
+}
+.fas{
+    color:#1A8DB4;
+}
+.white{
+    color: white;
+}
+i{
+    font-size:1rem;
+}
+
+.contadores{
+    flex-wrap: wrap;
+    background-color: #1a8db4;
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+    padding:4rem;
+}
+.borderservice{
+ 
+    border:blue inset;
+    padding: 2rem;
+    height:100%
+}
+.nav-container{
+    background-color: black;
+    
+}
+.tarjet{
+    background-color: white;
+    text-align: center;
+}
+.header-container{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://static.wixstatic.com/media/669128_ec1c7a78e9694aec8a07c2e48b292ae1~mv2.gif");
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    display: block;
+    
+}
+.img{
+    width:auto;
+}
+.text-contadores{
+    font-size: 1rem;
+    color: white;
+    font-weight: lighter;
+    padding-top: 1rem;
+}
+.number-contadores{
+    color: white;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.separationsection{
+    background-image: url("https://www.frassia.com/images/testimonial-bg.jpg");
+    padding: 3rem;
+    
+}
+.containerservice{
+    text-align: center;
+}
+.seeallprojects{
+    border: solid 1px black;
+    background-color: blue;
+    display: flex;
+    width: 18%;
+    margin-left: 43.5%;
+    margin-top: 2%;
+    
+
+    }
+.about-me-container{
+    width: 100%;
+
+}
+.tecnologies-container{
+    width: 100%;
+    padding: 5rem;
+}
+.tecnologies-container .row .col-3-md{
+    border:solid black; 
+    border-top: 90%; 
+    border-left: 0px;
+    border-right: 0px; 
+}
+.image img{
+    width: 100%;
+    padding: 0.3rem;
+    
+}
+.image h4{
+    color:#775454;
+    padding: 0.4rem;
+    justify-content: left;
+}
+.img-nav{
+    width: 2rem;
+    border-radius: 2rem;
+    
+}
+.tecnologies-container h2{
+    text-align: center;
+    padding: 1vh;
+    font-weight: 400;
+}
+.titlecar{
+    color: blue;
+    font-weight: 400;
+    ;
+}
+h2{
+    display: inline-block;
+    padding: 10vh 10vh 1.3rem 10vh;
+    color:inherit;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    
+}
+.none{
+    color: #1A8DB4;
+    border: solid 0px white;
+    justify-content: left;
+    
+}
+.hrheader{
+    
+    width: 15rem;
+    height: 0.4rem;
+    background-color: #1a8db4;
+      
+    
+}
+.padding{
+    padding-bottom: 1.3rem;
+}
+.padding-p{
+    padding: 0% 7% ;
+    font-size: 1.4rem;
+    text-align: justify;
+}
+p{
+    text-align: center;
+    margin:1rem
+}
+.box-experience p{
+    text-align: justify;
+    padding-top: 1rem;
+    margin:0;
+   
+}
+line{
+
+    border-top: solid 2px black;
+
+}
+progress{
+    width: 100%;    
+}
+
+.background-portfolio{
+    background-image: url("https://www.frassia.com/images/service-bg.jpg");
+    width: 100%;
+    padding-bottom: 1.5rem;
+    
+
+  
+}
+.portafoliooptions{
+    margin-top: 0.3rem;
+    padding:0px;
+}
+.portafoliooptions ul li a {
+    color: black;
+    display: flex;
+    border: solid black 1px;
+    padding:0.2rem 0.3rem;
+    cursor:pointer;cursor: hand;
+}
+.active{
+    color:#fff;
+    background-color: blue;
+    
+}
+.tarjet{
+    background-color: white;
+    width: 100%;
+    
+}
+.tarjet2{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    
+}
+/* Móviles */
+@media (min-width: 768px) { 
+
+}
+ 
+/* Tablets */
+@media (min-width: 1024px) {
+
+}
+ 

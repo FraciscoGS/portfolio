@@ -1,0 +1,28 @@
+.display-flex{
+    display: flex;
+    
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+    
+}
+.aling-items-center{
+    align-items: center;
+    min-height: 60px;
+}
+
+nav li{
+padding: 10px;
+}
+
+.center-items{
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.paddingtop-50vh{
+    margin-top: 50vh;
+
+}

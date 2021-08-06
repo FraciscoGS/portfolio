@@ -1,0 +1,195 @@
+.container{
+    width: 90%;
+    margin: auto;
+}
+.burger-menu{
+    display: none;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.margin2{
+    width: 2%;
+    margin-top: 2%;
+}
+.margin22{
+    width: 22.5%;
+    margin-top: 2%;
+}
+.margin22 h2{
+    border:solid black; 
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.row .margin22 h2{
+    border:solid rgba(0, 0, 0, 0); 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding:0.3rem;
+}
+
+.col-30{
+    width: 30%;
+    margin-top: 3rem;
+}
+.col-3{
+    width:2.5%
+    
+}
+.col-22{
+    width:22% 
+}
+.col-2{
+    width:2% 
+}
+
+/* MD */
+.col-3-md{
+    width: 25%;
+    padding: 0.7rem;
+}
+.col-4-md{
+    width: 33.333%;
+    padding: 0.7rem;
+}
+.col-6-md{
+    width: 50%;
+}
+.col-8-md{
+    width: 66.666%;
+}
+.col-12-md{
+    width: 100%;
+}
+
+/* xs */
+@media(max-width:768px){
+    .menu{
+        display:none;
+    }
+    .burger-menu{
+        display:block;
+    }
+    li{
+        text-align: center;
+        border: solid 1px white;
+    }
+    
+    .visible{
+        display: block;
+        width: 100%;
+    }
+    .nav-container{
+        display: none;
+    }
+    nav li{
+        display: block;
+    }
+    .nav-container-sm{
+        background-color: black;
+        min-height: 2rem;
+        padding: 0rem 1rem;
+    
+  
+    }
+    .header-container{
+        height: 100vh;
+        font-size: 100%;
+        }
+.col-30{
+    width: 45%;
+    margin-top: 3rem;
+}
+.col-3{
+    width:3%
+
+}
+.margin2{
+    width: 2%;
+    margin-top: 2%;
+}
+
+.margin22{
+    width: 45%;
+    margin-top: 3%;
+}
+
+}
+
+/* sm */
+@media(max-width:425px){
+    .menu{
+        display:none;
+    }
+    .burger-menu{
+        display:block;
+    }
+    li{
+        text-align: center;
+        border: solid 1px white;
+    }
+    
+    .visible{
+        display: block;
+        width: 100%;
+    }
+    .nav-container{
+        display: none;
+    }
+    nav li{
+        display: block;
+    }
+    .nav-container-sm{
+        background-color: black;
+        min-height: 2rem;
+        padding: 0rem 1rem;
+    
+  
+    }
+    .header-container{
+        height: 50vh;
+        font-size: 100%;
+        }
+    .col-30{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .col-3{
+        width:0%
+    
+    }
+    .margin2{
+        width: 0%;
+        margin-top: 2%;
+    }
+    .margin22{
+        width: 100%;
+        margin-top: 3%;
+        
+    }
+    .mppadingtop-50vh{
+        font-size: 1.7rem;
+    }
+    .tecnologies-container{
+        padding:2.5rem;
+    }
+    .background-portfolio{
+        padding:2.5rem;
+    }
+    .seeallprojects{
+        width: 100%;
+        margin-left: 0;
+    }
+    .borderservice{
+        margin:0rem 2.5rem;
+    }
+    }
+
+
+
