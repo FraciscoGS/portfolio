@@ -3,6 +3,37 @@ nav li{
     display: inline-block;
     color: white;
 }
+/* anitmation-numbers-coffe-cups */
+.contador{
+    
+ transform: rotate(180deg);
+    
+    position: relative;
+  
+}
+
+.numero{
+   
+   color: #555;
+    position: absolute;
+    transform: rotate(-180deg);
+    mix-blend-mode: screen;
+    background-color: #fff;
+   
+    
+}
+.color_fondo{
+    transition: .2s;
+    
+}
+.number_contadores{
+background-color: red;
+}
+.number_animated{
+        background-color: white;
+        
+        mix-blend-mode: screen;
+}
 .iconservice{
         display: inline-block;
         width: 4rem;
