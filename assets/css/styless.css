@@ -6,33 +6,25 @@ nav li{
 /* anitmation-numbers-coffe-cups */
 .contador{
     
- transform: rotate(180deg);
-    
+    transform: rotate(180deg);
     position: relative;
+    width: 100%;
   
 }
 
-.numero{
-   
-   color: #555;
-    position: absolute;
-    transform: rotate(-180deg);
-    mix-blend-mode: screen;
-    background-color: #fff;
-   
-    
-}
 .color_fondo{
     transition: .2s;
+
     
 }
 .number_contadores{
 background-color: red;
+
 }
 .number_animated{
         background-color: white;
-        
         mix-blend-mode: screen;
+        position: absolute;
 }
 .iconservice{
         display: inline-block;
@@ -111,6 +103,7 @@ i{
     color: white;
     font-weight: lighter;
     padding-top: 1rem;
+    
 }
 .number-contadores{
     color: white;

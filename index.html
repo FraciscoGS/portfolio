@@ -15,7 +15,7 @@
     <script src="https://kit.fontawesome.com/062a3f5fa7.js" crossorigin="anonymous"></script>
     <script src="./assets/js/menusm.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="./assets/js/animations.js"></script>
+    
 </head>
 <body>
 
@@ -192,7 +192,7 @@
 
     <a name = "portfolio"></a>
     <div class ="background-portfolio">
-        <div class="portfolio">
+        <div class="portfolio" id="portfoliofilter">
             <div= class= "row">
 
                 <div class= "col-12-md">
@@ -355,10 +355,7 @@
     <div class="row contadores">
 
         <div class="col-3-md iconservice "><i class="fas fa-star white fonticon3rem"></i>
-
-            <div class="color_fondo" id="fondo_color">
-                <div class="numero" id="numero"> 00</div>
-            </div>
+            <div class="number-contadores" id="numero"> 00</div>
             <div class= "text-contadores">Clientes Satisfechos</div> 
         </div>
 
@@ -412,35 +409,8 @@
     <div class="separationsection"></div>
     
 
-
-
-
-
-    <script type="text/javascript">
-    $(document).ready(function(){
-        $('.list').click(function(){
-            const value = $(this).attr('data-filter');
-            if(value == 'ALL'){
-                $('.margin2').show('1000');
-                $('.margin22').show('1000');
-                $('.tarjet').show('1000');
-            }else{
-                $('.tarjet').not('.'+value).hide('1000');
-                $('.margin2').not('.'+value).hide('1000');
-                $('.margin22').not('.'+value).hide('1000');
-                $('.tarjet').filter('.'+value).show('1000');
-                $('.margin2').filter('.'+value).show('1000');
-                $('.margin22').filter('.'+value).show('1000');
-            }
-        })
-    })
-
-    $('.list').click(function(){
-
-        $(this).addClass('active').siblings().removeClass('active');
-
-    })
-    </script>
+    <script src="./assets/js/animations.js"></script>
+    <script src="./assets/js/filterprojects.js"></script>
     
 </body>
 </html>
