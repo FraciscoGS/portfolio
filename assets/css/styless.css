@@ -33,6 +33,14 @@ background-color: red;
         mix-blend-mode: screen;
         position: absolute;
 }
+.paddingestudies h3{
+    color:blue;
+    padding:  0.5rem 0 0.5rem 0;
+}
+.paddingestudies h4{
+    
+    padding:  0.5rem 0 0.5rem 0;
+}
 .iconservice{
         display: inline-block;
         width: 4rem;
@@ -202,6 +210,23 @@ h2{
       
     
 }
+.col-4-md span{
+    color: blue;
+    font-weight: bold;
+    font-style:oblique;
+    height: 100%;
+    
+}
+.colordatos{
+  
+    height: 100%;
+}
+.justify-text{
+    text-align: justify;
+}
+.datosbasicos{
+    padding: 2rem;
+}
 .padding{
     padding-bottom: 1.3rem;
 }
@@ -234,12 +259,16 @@ progress{
     width: 100%;
     padding-bottom: 1.5rem;
 }
+
+
 .boxstudies img{
     width: 100%;
+    height: 100%;
 }
 /* Estilos estudies */
 .boxstudies{
     border: solid 1px black;
+    height: 100%;
 }
 
 .portafoliooptions{
