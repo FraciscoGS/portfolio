@@ -9,17 +9,20 @@
         let tiempo=setInterval(() => {
             cantidad+=1;
             // color.style.height=`${cantidad}%`;
-            numero.textContent=cantidad;
+            for(let i = 0 ; i<hasta ; i ++){
+
             
+            numero.textContent=cantidad;
             if(cantidad===hasta){
                 clearInterval(tiempo)
             }
-        }, hasta);
+        }
+        }, 300);
     }
     
-    incrementenumbers(numero,100);
-    incrementenumbers(numerocafe,100);
-    incrementenumbers(numeroprojects,100);
-    incrementenumbers(numerocursos,100);
+    incrementenumbers(numero,10);
+    incrementenumbers(numerocafe,2200);
+    incrementenumbers(numeroprojects,15);
+    incrementenumbers(numerocursos,20);
 
 

@@ -77,6 +77,13 @@
 
 /* xs */
 @media(max-width:768px){
+    .portafoliooptions ul{
+        display: flex;
+        width: 100%;
+    }
+    .portafoliooptions ul li{
+        width: 50%;
+    }
     .menu{
         display:none;
     }
@@ -126,6 +133,14 @@
     width: 45%;
     margin-top: 3%;
 }
+.col-22{
+    width:45% 
+}
+.col-4-md{
+    width: 50%;
+    
+}
+
 
 }
 
@@ -137,11 +152,57 @@
     .burger-menu{
         display:block;
     }
+    .displaynone{
+        display: none;
+    }
+    .portafoliooptions ul li{
+        font-size: 0.6rem;
+    }
+    .separationsection{
+        padding: 30px;
+    }
+    .background-portfolio{
+        padding: 0;
+    }
+    .col-3-md{
+        width: 100%;
+    }
+    .col-8-md{
+        width: 100%;
+    }
+    .row{
+        padding: 0;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .col-3{
+        display: none;
+    }
+    .col-30{
+        width: 100%;
+        margin-top: 1rem;
+    }
+   
+    .aling-items-center{
+        align-items: center;
+        height: auto;
+    }   
+   
     li{
         text-align: center;
         border: solid 1px white;
     }
-    
+    .col-4-md{
+        width: 100%;
+    }
+    .padding-p{
+        padding: 0% 1% ;
+        font-size: 1rem;
+        
+    }
+    .col-22{
+        width: 100%;
+    }
     .visible{
         display: block;
         width: 100%;
@@ -160,9 +221,11 @@
   
     }
     .header-container{
-        height: 50vh;
+        height: auto;
+        width: 100%;
         font-size: 100%;
         }
+        
     .col-30{
         width: 100%;
         margin-top: 3rem;
@@ -186,15 +249,14 @@
     .tecnologies-container{
         padding:2.5rem;
     }
-    .background-portfolio{
-        padding:2.5rem;
-    }
+    
     .seeallprojects{
         width: 100%;
         margin-left: 0;
     }
     .borderservice{
-        margin:0rem 2.5rem;
+        margin: 0;
+        padding: 0.2rem;
     }
     }
 
