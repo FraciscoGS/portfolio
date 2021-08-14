@@ -15,6 +15,10 @@
 nav li{
 padding: 10px;
 }
+nav li:hover{
+    background-color: white;
+    
+    }
 
 .center-items{
     

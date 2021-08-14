@@ -3,6 +3,13 @@ nav li{
     display: inline-block;
     color: white;
 }
+/* desplazamiento del menu del top */
+.menuOutTop{
+    background-color: #0075ff;
+    color: black;
+    transition: 2s;
+    
+}
 /* anitmation-numbers-coffe-cups */
 .contador{
     
@@ -76,7 +83,8 @@ i{
 }
 .nav-container{
     background-color: black;
-    
+    position: fixed;
+    width: 100% ;
 }
 .tarjet{
     background-color: white;
@@ -109,7 +117,9 @@ i{
     color: white;
     font-size: 2rem;
     padding-top: 1rem;
+    animation-delay: 4s;
 }
+
 
 .separationsection{
     background-image: url("https://www.frassia.com/images/testimonial-bg.jpg");
@@ -222,10 +232,13 @@ progress{
     background-image: url("https://www.frassia.com/images/service-bg.jpg");
     width: 100%;
     padding-bottom: 1.5rem;
-    
-
-  
 }
+
+/* Estilos estudies */
+.boxstudies{
+    border: solid 1px black;
+}
+
 .portafoliooptions{
     margin-top: 0.3rem;
     padding:0px;
@@ -241,6 +254,10 @@ progress{
     color:#fff;
     background-color: blue;
     
+}
+.portafoliooptions ul li:hover{
+    color:#fff;
+    background-color: blue;
 }
 .tarjet{
     background-color: white;

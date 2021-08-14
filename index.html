@@ -19,9 +19,9 @@
 </head>
 <body>
 
-    <div class=" nav-container">    
-        <div class="container"> 
-            <nav class="display-flex justify-content-space-between aling-items-center">
+    <div class=" nav-container" >    
+        <div class="container" id = "mineMenu">  
+            <nav class="display-flex justify-content-space-between aling-items-center" >
                     <a href=""><img class= "img-nav" src="https://www.frassia.com/img/sebastian_frassia.jpg" alt="">
                         PROGRAMADOR WEB FULL STACK</a>
                 <ul >
@@ -49,11 +49,11 @@
             </div>           
             <ul class="menu" id="main-menu">
                     
-                <li><a href="#about-mi">Sobre mi</a></li>
-                <li><a href="#portfolio">Portafolio</a></li>
-                <li><a href="#services">Servicios</a></li>
-                <li><a href="#">Formación</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="over"><a href="#about-mi">Sobre mi</a></li>
+                <li class="over"><a href="#portfolio">Portafolio</a></li>
+                <li class="over"><a href="#services">Servicios</a></li>
+                <li class="over"><a href="#portfolio">Portafolio</a></li>
+                <li class="over"><a href="contact.html">Contact</a></li>
 
                 
             </ul>
@@ -192,7 +192,7 @@
 
     <a name = "portfolio"></a>
     <div class ="background-portfolio">
-        <div class="portfolio" id="portfoliofilter">
+        <div class="portfolio" id="c">
             <div= class= "row">
 
                 <div class= "col-12-md">
@@ -355,20 +355,20 @@
     <div class="row contadores">
 
         <div class="col-3-md iconservice "><i class="fas fa-star white fonticon3rem"></i>
-            <div class="number-contadores" id="numero"> 00</div>
+            <div class="number-contadores" id="numeroclientes"> 00</div>
             <div class= "text-contadores">Clientes Satisfechos</div> 
         </div>
 
         <div class="col-3-md iconservice"><i class="fas fa-mug-hot white fonticon3rem"></i>
-            <div class="number-contadores">365</div>
+            <div class="number-contadores" id="numerotazas">00</div>
             <div class= "text-contadores">Tazas de cafe</div> 
         </div>
         <div class="col-3-md iconservice "><i class="fas fa-laptop-code white fonticon3rem"></i>
-            <div class="number-contadores">7</div>
+            <div class="number-contadores" id="numeroprojects">00</div>
             <div class= "text-contadores">Proyectos</div> 
         </div>
         <div class="col-3-md iconservice"><i class="fas fa-university white fonticon3rem"></i>
-            <div class="number-contadores">10</div>
+            <div class="number-contadores" id="numerocursos">00</div>
             <div class= "text-contadores">Cursos</div> 
         </div>
     </div>
@@ -394,21 +394,40 @@
                 <h3>Grupo Concentra</h3>
                 <h4>febrero 2021 - Marzo 2021</h4>
                 <span><i class="fas fa-laptop-code"></i>Soporte Técnico</span>
+                <p> 
+                    Aseguramiento del cumplimiento de las políticas de seguridad, mantenimiento correctivo y preventivo de equipos de cómputo, soporte en sitio y vía remota, instalación de programas y configuración, instalación de redes, instalación y mantenimiento a impresoras, seguimiento a clientes, atención a incidencias, gestión de Active Directory, mesa de ayuda.
+                </p>
+            </div> 
+        </div>
+        <div class="col-4-md">
+            <div class="box-experience">
+                <h3>Los SalvaNegocios</h3>
+                <h4>Agosto 2020 - Enero 2021</h4>
+                <span><i class="fas fa-laptop-code"></i>Estadias Desarrollador Web</span>
                 <p>
+                    Desarrollo de landing pages, sitios web , wordPress y SEO para WordPress.
                 </p>
             </div> 
         </div>
 
-
-        
-        
-
-
     </div>
 
     <div class="separationsection"></div>
-    
 
+    <a name = "formacion"></a>
+    <div class="background-portfolio">
+        <div class="row">
+            <div class="col-4-md center-items paddingestudies">
+                <div class="boxstudies">hola</div>
+            </div>
+            <div class="col-8-md center-items paddingestudies">
+                <div class="boxstudies">adios</div>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="./assets/js/menufijo.js"></script>
     <script src="./assets/js/animations.js"></script>
     <script src="./assets/js/filterprojects.js"></script>
     

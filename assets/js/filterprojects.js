@@ -1,7 +1,5 @@
-const sectionfilter = document.getElementById("portfoliofilter");
 
-
-sectionfilter.ready(function(){
+    
     $('.list').click(function(){
         const value = $(this).attr('data-filter');
         if(value == 'ALL'){
@@ -17,7 +15,6 @@ sectionfilter.ready(function(){
             $('.margin22').filter('.'+value).show('1000');
         }
     })
-})
 
 $('.list').click(function(){
 
